@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Money Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Money Calculator</h1>
+      <div class="note">
+        <img src="assets/five_hundred_note.png" alt="" /><input
+          type="text"
+          placeholder="Enter the No of Five Hundred Rupees Note"
+          id="fiveHundred"
+        /><span id="fiveHundredAmt">0</span>
+      </div>
+      <div class="note">
+        <img src="assets/two_hundred_note.png" alt="" /><input
+          type="text"
+          placeholder="Enter the No of Two Hundred Rupees Note"
+          id="twoHundred"
+        /><span id="twoHundredAmt">0</span>
+      </div>
+      <div class="note">
+        <img src="assets/one_hundred.png" alt="" /><input
+          type="text"
+          placeholder="Enter the No of Hundred Rupees Note"
+          id="oneHundred"
+        /><span id="oneHundredAmt">0</span>
+      </div>
+      <div class="note">
+        <img src="assets/fifty_note.png" alt="" /><input
+          type="text"
+          placeholder="Enter the No of Fifty Rupees Note"
+          id="fifty"
+        /><span id="fiftyAmt">0</span>
+      </div>
+      <div class="note">
+        <img src="assets/twenty_note.png" alt="" /><input
+          type="text"
+          placeholder="Enter the No of Twenty Rupees Note"
+          id="twenty"
+        /><span id="twentyAmt">0</span>
+      </div>
+      <div class="note">
+        <img src="assets/ten_note.png" alt="" /><input
+          type="text"
+          placeholder="Enter the No of Ten Rupees Note"
+          id="ten"
+        /><span id="tenAmt">0</span>
+      </div>
+      <div class="note">
+        <img src="assets/five_note.png" alt="" /><input
+          type="text"
+          placeholder="Enter the No of Five Rupees Note"
+          id="five"
+        /><span id="fiveAmt">0</span>
+      </div>
+      <div class="amt">
+        <button id="reset">Reset</button>
+        <p>Total Amount:<span id="tamt">0</span></p>
+        <p id="totalInWords"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
